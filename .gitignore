@@ -1,3 +1,4 @@
 git_push.sh
 test-requirements.txt
 tox.ini
+setup.py
