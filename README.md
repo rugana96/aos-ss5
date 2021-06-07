@@ -44,7 +44,7 @@ En el navegador escribimos:
 ```
 http://localhost:8080/api/v1/factura
 ```
-##Busquedas:
+## Busquedas:
 Para hacer una busqueda de un parametro utilizamos
 ```
 http://localhost:8080/api/v1/factura/Parametro/ID
