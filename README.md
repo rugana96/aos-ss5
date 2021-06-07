@@ -26,6 +26,11 @@ NombreImagen es el nombre que le queremos dar a nuestra imagen localmente. Por e
 
 TagImagen es la tag que le queremos poner a nuestra imagen. Por ejemplo: 0.1
 
+En el navegador escribimos:
+```
+http://localhost:8080/api/v1/factura
+```
+
 ## Uso con imagen desde DockerHub:
 Hacemos pull de la imagen desde el repositorio:
 ```
@@ -34,4 +39,8 @@ docker pull rugana90/aos-ss5:0.5
 Creamos el contenedor
 ```
 docker run -p 8080:8080 rugana90/aos-ss5:0.5
+```
+En el navegador escribimos:
+```
+http://localhost:8080/api/v1/factura
 ```
