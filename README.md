@@ -44,3 +44,17 @@ En el navegador escribimos:
 ```
 http://localhost:8080/api/v1/factura
 ```
+##Busquedas:
+Para hacer una busqueda de un parametro utilizamos
+```
+http://localhost:8080/api/v1/factura/Parametro/ID
+```
+El valor Parametro puede ser cualquiera de las tres busquedas que se puede realizar con nuestro subsistema:
+  - facturaId
+  - userId
+  - vehiculoId
+ID es la busqueda que queremos hacer, por ejemplo:
+```
+http://localhost:8080/api/v1/factura/facturaId/1234
+```
+Nos mostrara la factura con ID igual a '1234'
